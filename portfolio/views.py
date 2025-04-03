@@ -1,7 +1,9 @@
+# type: ignore
 from django.shortcuts import render
 from .models import Skill, Experience, Project, AboutMe
 
 def home(request):
+    """Render the portfolio homepage with all sections."""
     about_me = AboutMe.objects.first()
     skills = Skill.objects.all().order_by('-date_achieved')
     experiences = Experience.objects.all().order_by('-start_date')

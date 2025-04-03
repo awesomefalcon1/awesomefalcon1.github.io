@@ -11,6 +11,7 @@ class Skill(models.Model):
     date_achieved: models.DateField = models.DateField()
 
     def get_title(self) -> str:
+        """Returns the title of the skill."""
         return str(self.title)
 
 
@@ -24,6 +25,7 @@ class Experience(models.Model):
     current: models.BooleanField = models.BooleanField(default=False)
 
     def get_title(self) -> str:
+        """Returns a formatted string of the job title and company."""
         return f"{str(self.title)} at {str(self.company)}"
 
 
@@ -38,6 +40,7 @@ class Project(models.Model):
     date_completed: models.DateField = models.DateField()
 
     def get_title(self) -> str:
+        """Returns the title of the project."""
         return str(self.title)
 
 
@@ -51,6 +54,7 @@ class AboutMe(models.Model):
     quote_author: models.CharField = models.CharField(max_length=200)
 
     def get_title(self) -> str:
+        """Returns the title of the about me section."""
         return str(self.title)
 
     class Meta:
