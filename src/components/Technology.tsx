@@ -1,22 +1,22 @@
 export function Technology() {
   const technologies = [
     {
-      name: "Antimicrobial Silver Threading",
-      description: "Advanced silver nanoparticles woven into the fabric provide continuous protection against bacteria and odor-causing microorganisms.",
+      name: "Machine Learning & AI",
+      description: "Building intelligent systems with TensorFlow, PyTorch, and scikit-learn. Experience in computer vision, NLP, and reinforcement learning.",
       image: "/img/aws-practitioner.png",
-      specs: ["99.9% bacteria elimination", "Long-lasting protection", "Safe for sensitive skin"]
+      specs: ["Neural Networks", "Computer Vision", "Natural Language Processing"]
     },
     {
-      name: "Flatlock Seam Construction",
-      description: "Precision-engineered seams prevent chafing and ensure ultimate comfort during extended wear periods.",
+      name: "Cloud & DevOps",
+      description: "AWS certified with expertise in containerization, CI/CD pipelines, and scalable infrastructure design.",
       image: "/img/aws-developer.png",
-      specs: ["Zero chafing design", "Enhanced durability", "Smooth comfort zones"]
+      specs: ["AWS Services", "Docker/Kubernetes", "Infrastructure as Code"]
     },
     {
-      name: "Adaptive Fiber Matrix",
-      description: "Revolutionary fiber blend that adapts to body temperature and movement patterns for optimal comfort.",
+      name: "Full-Stack Development",
+      description: "Modern web development with React, TypeScript, Node.js, and various database technologies.",
       image: "/img/aws-devops-prof.png",
-      specs: ["Temperature regulation", "Movement adaptation", "Shape memory technology"]
+      specs: ["React/TypeScript", "Node.js/Python", "Database Design"]
     }
   ]
 
@@ -24,7 +24,7 @@ export function Technology() {
     <section id="technology" className="technology">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Technology Innovation</h2>
+          <h2 className="section-title">Technology Stack</h2>
           <p className="section-subtitle">
             "The greatest scientific discovery was the discovery of ignorance." 
             — Yuval Noah Harari
@@ -52,9 +52,9 @@ export function Technology() {
 
         <div className="technology-quote">
           <blockquote>
-            "For Mekkana, the Secundus Dermis is more than clothing—it's a declaration 
-            of her ingenuity and independence. Its constant presence acts as a visible 
-            extension of her identity, a mark of her strength, practicality, and resourcefulness."
+            "For AwesomeFalcon1, coding isn't just about writing software—it's about crafting 
+            solutions that bridge the gap between human needs and technological possibilities. 
+            Every project is an opportunity to create something meaningful and impactful."
           </blockquote>
         </div>
       </div>

@@ -4,29 +4,31 @@ export function Footer() {
       <div className="container">
         <div className="footer-content">
           <div className="footer-brand">
-            <h3>Secundus Dermis</h3>
-            <p>Revolutionary base layer technology for the modern world</p>
+            <h3>AwesomeFalcon1</h3>
+            <p>Vibe Coder & Software Developer</p>
+            <p>University of Waterloo Computer Science Graduate</p>
           </div>
           
           <div className="footer-links">
             <div className="link-group">
-              <h4>Product</h4>
-              <a href="#features">Features</a>
-              <a href="#technology">Technology</a>
-              <a href="#gallery">Gallery</a>
+              <h4>Portfolio</h4>
+              <a href="#experience">Experience</a>
+              <a href="#portfolio">Projects</a>
+              <a href="#skills">Skills</a>
             </div>
             
             <div className="link-group">
-              <h4>Company</h4>
-              <a href="#about">About</a>
+              <h4>Connect</h4>
+              <a href="https://www.linkedin.com/in/codejediatuw/">LinkedIn</a>
+              <a href="https://github.com/codejedi-ai">GitHub</a>
               <a href="#contact">Contact</a>
             </div>
           </div>
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2024 Secundus Dermis. All rights reserved.</p>
-          <p>Designed with innovation and elegance in mind.</p>
+          <p>&copy; 2024 AwesomeFalcon1. All rights reserved.</p>
+          <p>Crafted with passion and positive vibes 🚀</p>
         </div>
       </div>
     </footer>

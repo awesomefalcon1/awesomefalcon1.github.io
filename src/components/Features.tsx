@@ -1,40 +1,40 @@
 export function Features() {
   const features = [
     {
-      title: "Silver-Infused Silk",
-      description: "Antimicrobial properties with luxurious breathable texture",
-      icon: "🥈",
-      details: ["Neutralizes bacteria", "Eliminates odor", "Maintains freshness"]
+      title: "Problem-Solving Mindset",
+      description: "Analytical thinking combined with creative approaches to tackle complex challenges",
+      icon: "🧠",
+      details: ["Algorithm optimization", "System design", "Performance tuning"]
     },
     {
-      title: "Egyptian Cotton Blend",
-      description: "High-thread count for durability and moisture-wicking",
-      icon: "🌿",
-      details: ["Superior comfort", "Moisture management", "Long-lasting quality"]
+      title: "Modern Tech Stack",
+      description: "Proficiency in cutting-edge technologies and frameworks",
+      icon: "⚡",
+      details: ["React/TypeScript", "Python/ML", "AWS/Docker"]
     },
     {
-      title: "Elastic Fiber Technology",
-      description: "Form-fitting flexibility without movement restriction",
-      icon: "🔄",
-      details: ["Perfect fit", "Unrestricted movement", "Shape retention"]
+      title: "Collaborative Spirit",
+      description: "Strong communication and teamwork skills from co-op experiences",
+      icon: "🤝",
+      details: ["Agile methodologies", "Code reviews", "Mentoring"]
     },
     {
-      title: "Lace-Trimming Design",
-      description: "Sophisticated aesthetics with functional tear-away sections",
-      icon: "✂️",
-      details: ["Emergency functionality", "Elegant appearance", "Practical design"]
+      title: "Continuous Learning",
+      description: "Always staying updated with the latest industry trends and technologies",
+      icon: "📚",
+      details: ["Open source contributions", "Tech conferences", "Online courses"]
     },
     {
-      title: "Snowflake Patterns",
-      description: "Subtle shimmering designs for individual expression",
-      icon: "❄️",
-      details: ["Unique aesthetics", "Personal style", "Elegant detailing"]
+      title: "Quality Focus",
+      description: "Commitment to writing clean, maintainable, and well-tested code",
+      icon: "✨",
+      details: ["Test-driven development", "Code documentation", "Best practices"]
     },
     {
-      title: "Quick-Dry Technology",
-      description: "Advanced fabric keeps you dry and comfortable",
-      icon: "💨",
-      details: ["Rapid moisture evaporation", "Breathable comfort", "All-day freshness"]
+      title: "Innovation Drive",
+      description: "Passion for exploring new technologies and building innovative solutions",
+      icon: "🚀",
+      details: ["Hackathon participation", "Side projects", "Research interests"]
     }
   ]
 
@@ -42,9 +42,9 @@ export function Features() {
     <section id="features" className="features">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Advanced Features</h2>
+          <h2 className="section-title">Core Strengths</h2>
           <p className="section-subtitle">
-            Cutting-edge technology meets timeless elegance
+            What makes a vibe coder stand out in the tech world
           </p>
         </div>
 

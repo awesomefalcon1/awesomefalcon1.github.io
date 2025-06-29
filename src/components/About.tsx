@@ -3,7 +3,7 @@ export function About() {
     <section id="about" className="about">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">About Secundus Dermis</h2>
+          <h2 className="section-title">About AwesomeFalcon1</h2>
           <p className="section-subtitle">
             "Let each person examine his own work, and then he can take pride in himself alone, 
             and not compare himself with someone else." — Galatians 6:4
@@ -13,38 +13,39 @@ export function About() {
         <div className="about-content">
           <div className="about-text">
             <div className="about-intro">
-              <h3>Revolutionary Design Philosophy</h3>
+              <h3>Vibe Coder Philosophy</h3>
               <p>
-                The Secundus Dermis represents a paradigm shift in clothing technology. 
-                Aptly named "second skin," this garment transcends traditional boundaries 
-                between undergarments, base layers, and statement pieces.
+                As a University of Waterloo Computer Science graduate, I believe in coding with 
+                passion, purpose, and positive energy. My approach combines technical excellence 
+                with creative problem-solving, always striving to build solutions that make a 
+                meaningful impact.
               </p>
             </div>
 
             <div className="about-features">
               <div className="feature-grid">
                 <div className="feature-item">
-                  <div className="feature-icon">🧬</div>
-                  <h4>Multi-Functional Core</h4>
-                  <p>Acts as bra, layering tee, and emergency undergarment without compromising elegance.</p>
+                  <div className="feature-icon">🎓</div>
+                  <h4>Academic Excellence</h4>
+                  <p>University of Waterloo Computer Science graduate with strong foundations in algorithms, data structures, and software engineering.</p>
                 </div>
                 
                 <div className="feature-item">
-                  <div className="feature-icon">⚡</div>
-                  <h4>Adaptive Technology</h4>
-                  <p>Seamlessly transitions between casual, professional, and ceremonial contexts.</p>
+                  <div className="feature-icon">💻</div>
+                  <h4>Full-Stack Expertise</h4>
+                  <p>Proficient in modern web technologies, cloud platforms, and mobile development frameworks.</p>
                 </div>
                 
                 <div className="feature-item">
-                  <div className="feature-icon">🛡️</div>
-                  <h4>Hygienic Durability</h4>
-                  <p>Silver-infused threads provide antimicrobial protection for extended wear.</p>
+                  <div className="feature-icon">🤖</div>
+                  <h4>AI/ML Enthusiast</h4>
+                  <p>Passionate about machine learning, neural networks, and building intelligent systems that solve real-world problems.</p>
                 </div>
                 
                 <div className="feature-item">
-                  <div className="feature-icon">✨</div>
-                  <h4>Luxury Materials</h4>
-                  <p>Premium silk and Egyptian cotton blend for ultimate comfort and sophistication.</p>
+                  <div className="feature-icon">☁️</div>
+                  <h4>Cloud Native</h4>
+                  <p>AWS certified with experience in DevOps, containerization, and scalable cloud architecture design.</p>
                 </div>
               </div>
             </div>
@@ -52,11 +53,11 @@ export function About() {
 
           <div className="about-image">
             <div className="image-container">
-              <img src="/img/CodeJedi.png" alt="Secundus Dermis Design" />
+              <img src="/img/CodeJedi.png" alt="AwesomeFalcon1 - Vibe Coder" />
               <div className="image-overlay">
                 <div className="overlay-content">
-                  <h4>Innovation Meets Elegance</h4>
-                  <p>Where technology and fashion converge</p>
+                  <h4>Code with Purpose</h4>
+                  <p>Building the future, one line at a time</p>
                 </div>
               </div>
             </div>

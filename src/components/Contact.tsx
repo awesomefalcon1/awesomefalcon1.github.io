@@ -26,29 +26,33 @@ export function Contact() {
     <section id="contact" className="contact">
       <div className="container">
         <div className="section-header">
-          <h2 className="section-title">Get In Touch</h2>
+          <h2 className="section-title">Let's Connect</h2>
           <p className="section-subtitle">
-            Ready to experience the future of base layer technology?
+            Ready to collaborate on the next big thing?
           </p>
         </div>
 
         <div className="contact-content">
           <div className="contact-info">
-            <h3>Connect With Innovation</h3>
+            <h3>Get In Touch</h3>
             <p>
-              Join the revolution in adaptive clothing technology. 
-              Reach out to learn more about Secundus Dermis and how 
-              it can transform your wardrobe experience.
+              Whether you're looking for a passionate developer, want to discuss 
+              a project idea, or just want to chat about the latest in tech, 
+              I'd love to hear from you. Let's build something amazing together!
             </p>
             
             <div className="contact-links">
               <a href="https://www.linkedin.com/in/codejediatuw/" className="contact-link">
                 <span className="link-icon">💼</span>
-                <span>LinkedIn</span>
+                <span>LinkedIn - Professional Network</span>
               </a>
               <a href="https://github.com/codejedi-ai" className="contact-link">
                 <span className="link-icon">💻</span>
-                <span>GitHub</span>
+                <span>GitHub - Code Portfolio</span>
+              </a>
+              <a href="mailto:awesomefalcon1@example.com" className="contact-link">
+                <span className="link-icon">📧</span>
+                <span>Email - Direct Contact</span>
               </a>
             </div>
           </div>
