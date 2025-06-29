@@ -5,6 +5,9 @@ import { About } from './components/About'
 import { Features } from './components/Features'
 import { Technology } from './components/Technology'
 import { Gallery } from './components/Gallery'
+import { Experience } from './components/Experience'
+import { Portfolio } from './components/Portfolio'
+import { Skills } from './components/Skills'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 
@@ -23,6 +26,9 @@ export function App() {
         <About />
         <Features />
         <Technology />
+        <Experience />
+        <Portfolio />
+        <Skills />
         <Gallery />
         <Contact />
       </main>
